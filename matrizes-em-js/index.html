@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matriz</title>
+  <style>
+    ul#res {
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Matrizes</h1>
+    </header>
+    <section>
+      <p>Qual é a ordem da matriz (ex: ordem 3 = 3 x 3): </p><input type="text" id="txtOrdem"/>
+      <input type="button" value="Adicionar" onclick="adcionarOrdem()" />
+      <p>Adicione um valor a matriz: </p><input type="text" id="txtNum"/>
+      <input type="button" value="Adicionar" onclick="adicionar()"><br/>
+      <select id="lista"></select><br/>
+      <img src="images/go-button.png" alt="Botão Avançar" onclick="avancar()"/>
+      <ul id="res"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
